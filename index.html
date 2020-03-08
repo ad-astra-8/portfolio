@@ -1,115 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link rel="stylesheet" type="text/css" href="main.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato|Maven+Pro|Numans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gudea&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Give+You+Glory|Homemade+Apple|Liu+Jian+Mao+Cao|Rock+Salt|Yesteryear&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Wireframe</title>
+    <title>Wanda Antoine Portoflio </title>
 </head>
 
 <body>
     <nav role="navigation" class="sidenav">
-        <div class="burger"><i class="fa fa-bars"></i></div>
+        <p class="name">Wanda Antoine</p>
         <ul class="nav-links">
-            <li><a href="#home"></a>Home</li>
-            <li><a href="#about-me">About Me</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#home"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+            <li><a href="#about"><i class="fa fa-user-circle-o" aria-hidden="true"></i> About</a></li>
+            <li><a href="#projects"><i class="fa fa-briefcase" aria-hidden="true"></i> Projects</a></li>
+            <li><a href="#skills"><i class="fa fa-cog" aria-hidden="true"></i> Skills</a></li>
+            <li><a href="#contact"><i class="fa fa-envelope" aria-hidden="true"></i> Contact</a></li>
+        </ul>
+        <ul class="nav-icon">
+            <li class="nav-icon"><a href="#home"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+            <li class="nav-icon"><a href="#about"><i class="fa fa-user-circle-o" aria-hidden="true"></i></a></li>
+            <li class="nav-icon"><a href="#projects"><i class="fa fa-briefcase" aria-hidden="true"></i></a></li>
+            <li class="nav-icon"><a href="#skills"><i class="fa fa-cog" aria-hidden="true"></i></a></li>
+            <li class="nav-icon"><a href="#contact"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
         </ul>
     </nav>
     <main role="main">
 
-    <header role="banner">
-        <h1 class="create">Create</h1>
-        <h1 class="design">Design</h1>
-        <h1 class="repeat">Repeat</h1>
-    </header><hr>
-    
-    <section class="about-me">
-        <h2>About me</h2>
-         <div class="profile-pic"><img src="images\close-head-shot.jpg" alt="profile photo"></div>
-        <p>Welcome! I'm Wanda, web developer based in the Washington DC area. My passion is to create for web and mobile devices.</p>
-        <p>I am a recent graduate of the Software Engineering Bootcamp program at Thinkful. I started learning coding on my own as I wanted to create my own teaching website. Over time, my curiosity became enthusiasm, I have thus, gained experience developing websites and mobile applications.</p>
-        <p>Traveling is my other thrill. I love exploring new territories, learning new languages and different cultures.</p>
-        <p>Let's <a href="#contact" class="connect">connect</a> and get started!</p>
-    </section>
-
-    <section class="projects">
-        <h2>Projects</h2>
-        <div class="project-container">
-            <figure>
-                <img class="screenshot" src="images\screen-shot-quiz.png" alt="screenshot of travel quiz">
-                <figcaption>Travel Quiz App.</figcaption>
-            </figure>
-            <p class="project-description">This quiz app was created to test the users’ knowledge about travel and geography. The app is designed as a multiple-choice question. It’s user-friendly, playful and accessible to everyone.</p>
-            <div class="link-container">
-            <a class="project-link" href="">Live Demo</a>
-            <a class="project-link" href="">Code</a>
+        <header role="banner" id="home">
+            <div class="slogan">
+                <h1> Simplicity, creativity, quality</h1>
             </div>
-            <ul class="ul-project-skills">
-                <li class="li-project-skills">HTML</li>
-                <li class="li-project-skills">CSS</li>
-                <li class="li-project-skills">JavaScript</li>
-                <li class="li-project-skills">JQuery</li>
-            </ul>
-        </div>
-    </section>
+        </header>
+        <hr>
 
-    <section class="skills">
-        <h2>Skills</h2>
-        <div class="logo-container">
-        <figure>
-            <img class="logo" src="images\iconfinder_HTML.png" alt="html logo">
-            <figcaption>HTML 5</figcaption>
-        </figure>
-        <figure>
-            <img class="logo" src="images\iconfinder_css3.png" alt="css logo">
-            <figcaption>CSS 3</figcaption>
-        </figure>
-        <figure>
-            <img class="logo" src="images\128px-JavaScript-logo.png" alt="JavaScript logo">
-            <figcaption>JavaScript</figcaption>
-        </figure>
-        <figure>
-            <img class="logo" src="images\iconfinder_JQuery.png" alt="jQuery logo">
-            <figcaption>JQuery</figcaption>
-        </figure>
-        <!-- <figure>
+        <section class="about" id="about">
+            <h2><i class="fa fa-user-circle-o" aria-hidden="true"></i> About Me </h2>
+            <div class="profile-pic"><img src="images\head-shot.jpg" alt="profile photo"></div>
+            <p>Welcome!</p>
+            <p>My passion is to create for web and mobile devices.</p>
+            <p>I am a recent graduate of the Software Engineering Bootcamp program at Thinkful. I started learning
+                coding on my own as I wanted to create my own teaching website. Over time, my curiosity became
+                enthusiasm. I thus gained experience developing responsive websites and mobile applications.</p>
+            <p>Traveling is my other thrill. I love exploring new territories, learning new languages and different
+                cultures.</p>
+            <p>Let's <a href="#contact" class="connect">connect</a> and get started!</p>
+        </section>
+
+        <section class="projects" id="projects">
+            <h2><i class="fa fa-briefcase" aria-hidden="true"></i> Projects</h2>
+            <div class="project-container">
+                <figure>
+                    <img class="screenshot" src="images\screen-shot-quiz.png" alt="screenshot of travel quiz">
+                    <figcaption>Travel Quiz App.</figcaption>
+                </figure>
+                <p class="project-description">This quiz app was created to test the users’ knowledge about travel and
+                    geography. The app is designed as a multiple-choice question. It’s user-friendly, playful and
+                    accessible to everyone.</p>
+                <ul class="ul-project-skills">
+                    <li class="li-project-skills">HTML</li>
+                    <li class="li-project-skills">CSS</li>
+                    <li class="li-project-skills">JavaScript</li>
+                    <li class="li-project-skills">JQuery</li>
+                </ul>
+                <div class="link-container">
+                    <a class="project-link" href="https://ad-astra-8.github.io/travel-quiz-app-one/" target="_blank"><i class="fa fa-desktop" aria-hidden="true"></i> Live demo</a>
+                    <a class="project-link" href="https://github.com/ad-astra-8/travel-quiz-app-one.git" target="_blank"><i class="fa fa-code" aria-hidden="true"></i> Code</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <h2><i class="fa fa-cog" aria-hidden="true"></i> Skills</h2>
+            <div class="logo-container">
+                <figure class="figure-skills">
+                    <img class="logo html" src="images\iconfinder_HTML.png" alt="html logo">
+                    <figcaption>HTML 5</figcaption>
+                </figure>
+                <figure class="figure-skills">
+                    <img class="logo" src="images\iconfinder_css3.png" alt="css logo">
+                    <figcaption>CSS 3</figcaption>
+                </figure>
+                <figure class="figure-skills">
+                    <img class="logo" src="images\128px-JavaScript-logo.png" alt="JavaScript logo">
+                    <figcaption>JavaScript</figcaption>
+                </figure>
+                <figure class="figure-skills">
+                    <img class="logo" src="images\iconfinder_JQuery.png" alt="jQuery logo">
+                    <figcaption>JQuery</figcaption>
+                </figure>
+                <!-- <figure class="figure-skills">
             <img class="logo" src="" alt="">
             <figcaption></figcaption>
         </figure>
-        <figure>
+        <figure class="figure-skills">
             <img class="logo" src="" alt="">
             <figcaption></figcaption>
         </figure>
-        <figure>
+        <figure class="figure-skills">
             <img class="logo" src="" alt="">
             <figcaption></figcaption>
         </figure>
-        <figure>
+        <figure class="figure-skills">
             <img class="logo" src="" alt="">
             <figcaption></figcaption>
         </figure>
-        <figure>
+        <figure class="figure-skills">
             <img class="logo" src="" alt="">
             <figcaption></figcaption>
         </figure>
-        <figure>
+        <figure class="figure-skills">
             <img class="logo" src="" alt="">
             <figcaption></figcaption>
         </figure> -->
-        </div>
-    </section>
+            </div>
+        </section>
 
-    <section class="contact">
-        <h2>Contact</h2>
-    </section>
+        <section class="contact" id="contact">
+            <h2><i class="fa fa-envelope" aria-hidden="true"></i> Contact</h2>
+            <!-- <div class="contact-container">
+                <form action="/action_page.php">
+                    <label for="fname">First Name*</label>
+                    <input type="text" id="fname" name="firstname">
+
+                    <label for="lname">Last Name*</label>
+                    <input type="text" id="lname" name="lastname">
+
+                    <label for="email">Email address*</label>
+                    <input type="email" id="email" name="email">
+
+                    <label for="message">Message*</label>
+                    <textarea id="message" name="message" style="height:200px"></textarea>
+
+                    <input type="submit" value="Send Message">
+                </form>
+            </div> -->
+            <div class="contact-link-container">
+                <a class="contact-icon" href="mailto:wanda.eliyah@gmail.com?"><i class="fa fa-envelope-o"
+                        aria-hidden="true"></i></a>
+                <a class="contact-icon" href="https://github.com/ad-astra-8?tab=repositories" target="_blank"><i
+                        class="fa fa-github" aria-hidden="true"></i></a>
+                <a class="contact-icon" href="https://www.linkedin.com/in/wanda-antoine-b5738519a/" target="_blank"><i
+                        class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            </div>
+        </section>
     </main>
 
-    <footer role="content-info">Footer</footer>
+    <footer role="content-info">
+        <p class="copyright">© Copyright 2020 Wanda Antoine</p>
+    </footer>
 </body>
+
 </html>
