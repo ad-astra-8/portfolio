@@ -30,7 +30,11 @@ nav {
 
 header {
     /* rgba(0, 0, 0, 0) */
-    background: url("images/dark-mode-black-late-night-work-inspiration.jpg") no-repeat center center fixed;
+    /* background: url("images/dark-mode-black-late-night-work-inspiration.jpg") no-repeat center center fixed; */
+    background-image: url("images/dark-mode-black-late-night-work-inspiration.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
