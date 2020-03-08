@@ -417,8 +417,8 @@ ul {
 }
 
 /* bigscreen */
- @media only screen and (min-width: 1200px) and (max-width: 1600px) {
-
+ @media only screen and (min-width: 1200px) {
+ /* and (max-width: 1600px) */
     .name {
         float: left;
         padding-left: 70px;
