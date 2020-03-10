@@ -34,11 +34,11 @@ header {
     background-image: url("images/dark-mode-black-late-night-work-inspiration.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center center;
+    background-size: cover;
     -webkit-background-size: cover;
+    background-position: center center;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
     height: 700px;
     display: block;
     position: relative;
