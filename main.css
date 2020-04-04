@@ -107,11 +107,13 @@ figcaption {
     color:  #CCC;
 }
 
-figure {
+.figure-sc {
     margin-left: 0;
     margin-right: 0;
     margin-top: 40px;
     margin-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .figure-skills {
@@ -251,13 +253,13 @@ label {
     display: none;
 }
   
-.nav-links li {
-      /* display: none; */
+/* .nav-links li {
+      display: none; */
       /* padding: 0;
       margin:0;
       padding-right: 20px;
-      padding-top: 5px; */
-    }
+      padding-top: 5px;
+    } */
 
 p {
     font-size: 18px;
@@ -337,7 +339,6 @@ ul {
 .ul-project-skills {
     font-size: 14px;
     display: inline-flex;
-    display: flex;
     align-items: center;
     padding-left: 0;
     color:  #B3B4B4;
@@ -363,21 +364,23 @@ ul {
     .profile-pic {
         text-align: center;
         margin-bottom: 40px;
-       
     }
 
     .project-link {
-    font-size: 16px;
+        font-size: 16px;
     }
 
     section {
         margin-left: 0;
         margin-right: 40px;
+        align-items: center;
         padding: 40px;
     }
+
     .ul-project-skills {
-        display: flex;
+        display: inline-flex;
         justify-content: inherit;
+        align-items: center;
         margin-left: 0;
     }
 }
@@ -422,9 +425,28 @@ ul {
         padding-right: 20px;
         padding-top: 5px;
     }
+
+    .project-container {
+        display: inline-flex;
+        vertical-align: bottom;
+    }
+
+    .project-description {
+        margin-right: 20px;
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    /* .project-link {
+        margin-right: 10px;
+    } */
+
+    .ul-project-skills {
+        justify-content: center;
+    }
 }
 
-/* bigscreen */
+/* large screen */
  @media only screen and (min-width: 1200px) {
  /* and (max-width: 1600px) */
     .name {
@@ -448,6 +470,4 @@ ul {
     }
 }
   
-
-
 
