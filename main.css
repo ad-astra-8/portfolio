@@ -508,22 +508,22 @@ ul {
         padding-right: 20px;
     }
 
-  .logo {
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-
+    .logo {
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
     }
 
-  .logo-container {
-    display: block;
-    max-width: 80%;
-  }
+    .logo-container {
+        display: block;
+        max-width: 80%;
+    }
 
-  .figure-skills {
-    margin: 49px;
-    display: inline-grid;
-  }
+    .figure-skills {
+        margin: 49px;
+        display: inline-grid;
+    }
+
     .name {
         float: left;
         padding-left: 70px;
@@ -573,12 +573,10 @@ ul {
     }
 }
 
-  
+/* monitors */
 @media only screen and (min-width: 1600px) {
 
     .intro {
         max-width: 80%;
     }
-
-
 }
