@@ -517,7 +517,7 @@ ul {
 
   .logo-container {
     display: block;
-    max-width: 60%;
+    max-width: 80%;
   }
 
   .figure-skills {
@@ -559,7 +559,7 @@ ul {
     }
     
     .intro {
-        max-width: 80%;
+        max-width: 87%;
     }
 
     img {
@@ -574,4 +574,11 @@ ul {
 }
 
   
+@media only screen and (min-width: 1600px) {
 
+    .intro {
+        max-width: 80%;
+    }
+
+
+}
