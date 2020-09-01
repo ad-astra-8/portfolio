@@ -101,6 +101,18 @@ a:hover {
     text-shadow: 0 0 10px white;
 }
 
+.fa {
+    color: #EF2D24;
+}
+
+.fa {
+    padding-right: 4px;
+}
+
+.clickables:hover {
+    color: white;
+}
+
 figcaption {
     font-size: 16px;
     text-align: center;
@@ -281,6 +293,9 @@ p {
     text-align: left;
 }
 
+.project-item {
+    max-width: 615px;
+}
 .project-link {
     color: #aaa;
     text-shadow: 0 0 10px #aaa;
@@ -345,6 +360,11 @@ ul {
 }
 
 @media only screen and (min-width: 521px) {
+
+    .fa {
+        padding-right: 10px;
+    }
+    
    
     figcaption {
        font-size: 20px;
@@ -387,6 +407,10 @@ ul {
 
 /* tablet */
 @media only screen and (min-width: 768px) {
+
+    .fa {
+        padding-right: 15px;
+    }
 
     nav {
         display: grid;
@@ -450,6 +474,11 @@ ul {
 /* large screen */
  @media only screen and (min-width: 1200px) {
  /* and (max-width: 1600px) */
+
+ .fa {
+    padding-right: 20px;
+}
+
     .name {
         float: left;
         padding-left: 70px;
@@ -471,6 +500,11 @@ ul {
     }
 
     .project-container {
+        flex-direction: column;
+    }
+
+    .p-twin-container {
+        display: inline-flex;
         flex-direction: row;
     }
 
@@ -486,6 +520,11 @@ ul {
     img {
         height: 265px;
         width: 238px;
+    }
+
+    .screenshot {
+        height: 300px;
+        width: 350px;
     }
 }
 
