@@ -474,6 +474,20 @@ ul {
         flex-direction: row;
     }
 
+    .profile-pic {
+        float: right;
+        margin: 70px 50px 0 0;
+    }
+    
+    .intro {
+        max-width: 80%;
+    }
+
+    img {
+        height: 265px;
+        width: 238px;
+    }
 }
+
   
 
