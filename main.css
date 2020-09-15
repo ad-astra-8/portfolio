@@ -260,7 +260,8 @@ input[type=submit]:hover {
 		text-align: left;
 	}
 	.project-item {
-		max-width: 615px;
+		/* max-width: 615px; */
+		width: 465px;
 	}
 	.project-link {
 		color: #aaa;
@@ -278,7 +279,7 @@ input[type=submit]:hover {
 		border: 1px solid white;
 	}
 	.screenshot {
-		height: 200px;
+		/* height: 200px; */
 		width: 250px;
 		text-align: center;
 		background-repeat: no-repeat;
@@ -482,7 +483,7 @@ input[type=submit]:hover {
         padding: 20px;
 	}
 	.screenshot {
-		height: 300px;
+		/* height: 300px; */
 		width: 350px;
 	}
 }
