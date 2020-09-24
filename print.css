@@ -23,9 +23,53 @@
     .skills-container {
         page-break-after: always;
     }
-    /*
-    .projects-container {
-        margin-top: 10rem;
+
+    .ul-project-skills {
+		display: inline-flex;
+		justify-content: inherit;
+		align-items: center;
+		margin-left: 0;
+	}
+
+    .li-project-skills {
+		margin-right: 10px;
+		margin-left: 10px;
+		padding: 2px;
+        border-bottom: solid 1px #CCC;
+        list-style: none;
     }
-*/
+    
+    .project-description {
+        margin-bottom: 0;
+    }
+
+    .project-item {
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    .about {
+        page-break-after: always;
+    }
+
+    .screenshot {
+        height: 250px !important;
+    }
+    
+    .logo {
+		text-align: center;
+		margin-right: auto;
+        margin-left: auto;
+        height: 40px;
+    }
+    
+	.logo-container {
+		display: block;
+	}
+
+    .figure-skills {
+		margin: 49px;
+		display: inline-grid;
+	}
+
 }
