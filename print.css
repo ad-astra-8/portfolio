@@ -18,10 +18,12 @@
         display: none !important;
     }
     .show-print-only {
-        display: block !important;
+        /* display: block !important; */
+        display: none !important;
+
     }
     .skills-container {
-        page-break-after: always;
+        page-break-after: always !important;
     }
 
     .ul-project-skills {
