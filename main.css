@@ -181,6 +181,7 @@ input[type=submit]:hover {
 		margin-left: 10px;
 		padding: 5px 2px;
 		border-bottom: solid 1px #CCC;
+		display: inline-block;
 	}
 	.link-container {
 		text-align: center;
@@ -316,7 +317,7 @@ input[type=submit]:hover {
 	.ul-project-skills {
 		font-size: 14px;
 		display: block;
-		align-items: center;
+		/* align-items: center; */
 		padding-left: 0;
 		color: #B3B4B4;
 		width: 80%;
@@ -360,10 +361,10 @@ input[type=submit]:hover {
         padding-bottom: 40px;
 	}
 	.ul-project-skills {
-		display: inline-flex;
-		justify-content: inherit;
-		align-items: center;
-		margin-left: 0;
+		/* display: inline-flex; */
+		/* justify-content: inherit; */
+		/* align-items: center; */
+		/* margin-left: 0; */
 	}
 }
 
@@ -429,7 +430,7 @@ input[type=submit]:hover {
 		text-align: center;
 	}
 	.ul-project-skills {
-		justify-content: center;
+		/* justify-content: center; */
 	}
 }
 
