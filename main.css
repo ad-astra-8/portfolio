@@ -35,7 +35,6 @@ body {
     }
     
 	header {
-		/* rgba(0, 0, 0, 0) */
 		background-image: url("images/dark-mode-black-late-night-work-inspiration.jpg");
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -132,7 +131,6 @@ body {
 		color: #F2F2F2;
 		text-shadow: 0px 1px 9px #0D0D0D;
 		font-size: 18px;
-		/* display: none; */
 	}
 	h2 {
 		font-size: x-large;
@@ -150,7 +148,9 @@ body {
 	.html {
 		padding-top: 3.5px;
 	}
-	/* for future contact section update */
+
+
+	/* ////////    for future contact section update    ///////// */
 	/* input , textarea {
     width: 100%;
     padding: 12px;
@@ -173,6 +173,8 @@ body {
 input[type=submit]:hover {
     background-color: rgb(136, 15, 9);
 } */
+
+
 	label {
 		font-size: 16px;
 	}
@@ -233,15 +235,7 @@ input[type=submit]:hover {
 	}
 	.nav-links {
 		display: none;
-	}
-	/* .nav-links li {
-      display: none; */
-	/* padding: 0;
-      margin:0;
-      padding-right: 20px;
-      padding-top: 5px;
-	} */
-	
+	}	
 	.show-print-only {
 		display: none;
 	}
@@ -266,7 +260,6 @@ input[type=submit]:hover {
 	}
 	.project-item {
 		max-width: 615px;
-		/* width: 465px; */
 	}
 	.project-link {
 		color: #aaa;
@@ -284,7 +277,6 @@ input[type=submit]:hover {
 		border: 1px solid white;
 	}
 	.screenshot {
-		/* height: 200px; */
 		width: 250px;
 		text-align: center;
 		background-repeat: no-repeat;
@@ -317,10 +309,9 @@ input[type=submit]:hover {
 	.ul-project-skills {
 		font-size: 14px;
 		display: block;
-		/* align-items: center; */
 		padding-left: 0;
 		color: #B3B4B4;
-		width: 80%;
+		width: 95%;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -360,12 +351,6 @@ input[type=submit]:hover {
         padding-top: 40px;
         padding-bottom: 40px;
 	}
-	.ul-project-skills {
-		/* display: inline-flex; */
-		/* justify-content: inherit; */
-		/* align-items: center; */
-		/* margin-left: 0; */
-	}
 }
 
 
@@ -374,9 +359,6 @@ input[type=submit]:hover {
 @media only screen and (min-width: 768px) {
 	.fa {
 		padding-right: 15px;
-	}
-	nav {
-		/* display: grid; */
 	}
 	.nav-icon {
 		display: none;
@@ -426,9 +408,6 @@ input[type=submit]:hover {
 		margin-left: 20px;
 		text-align: center;
 	}
-	.ul-project-skills {
-		/* justify-content: center; */
-	}
 }
 
 
@@ -476,9 +455,7 @@ input[type=submit]:hover {
 		flex-direction: row;
 	}
 	.profile-pic {
-		float: right;
-        /* margin: 70px 50px 0 0; */
-       
+		float: right;       
 	}
 	.intro {
 		max-width: 87%;
@@ -488,7 +465,6 @@ input[type=submit]:hover {
         padding: 20px;
 	}
 	.screenshot {
-		/* height: 300px; */
 		width: 350px;
 	}
 }
